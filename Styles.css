@@ -1,0 +1,506 @@
+body{
+    background-image: url(images/image_2021-09-19_20-00-10.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(148, 148, 148);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(99, 99, 99); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(82, 82, 82); 
+  }
+.home-title{
+    color: white;
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 160px;
+    animation-name: home-links;
+    animation-duration: 3s;
+    
+}
+.home-title::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: yellow;
+    text-align: center;
+}
+.home-links{
+    color: white;
+    position: relative;
+    bottom: 235px;
+    top: 0%;
+    text-decoration: none;
+    font-size: 5mm;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 1s;
+    animation-name: home-links;
+    animation-duration: 3s;
+}
+.home-links:hover{
+    font-size:20px;
+    color: rgb(235, 235, 235);
+}
+.home-links2nd{
+    color: white;
+    text-decoration: none;
+    font-size: 5mm;
+}
+.home-links-div{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.background{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    animation-name: logo;
+    animation-duration: 3s;
+}
+.bots-h3{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    font-family:monospace;
+    word-spacing: -7px;
+    cursor: default;
+    animation-name: bots-title;
+    animation-duration: 3s;
+    transition: 1s;
+}
+.bots-h3:hover{
+    font-size: 32px;
+}
+.bots-list{
+    color: rgb(206, 206, 0);
+    text-decoration: none;
+    list-style-type:circle;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+    animation-name: bots-list;
+    animation-duration: 4s;
+}
+.bots-list:hover{
+    font-size: 19px;
+    color: yellow;
+}
+li.bots-list:hover{
+color:rgb(206, 206, 0);
+font-size: 18px;
+}
+.warn{
+    color: rgb(255, 255, 0);
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:dashed underline;
+}
+.about-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-size: 33px;
+    animation-name: topic;
+    animation-duration: 2s;
+}
+.about-p1{
+    color: orange;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+    cursor:default;
+    text-align: center;
+    animation-name: topic;
+    animation-duration: 2s;
+}
+.about-p1::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+.about-spl{
+    font-size:28px;
+    color: orange;
+    text-decoration: underline orange;
+    animation-name: topic;
+    animation-duration: 2s;
+}
+.about-spl::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+.about-title::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+.topics{
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    animation-name: topics;
+    animation-duration: 5s;
+}
+.content{
+    color: orange;
+    font-size: 20px;
+    cursor:default;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: content;
+    animation-duration: 6s;
+}
+.topics::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+.content::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+.content-links{
+    color: orange;
+    animation-name: content;
+    animation-duration: 6s;
+}
+.content-img{
+    animation-name: content;
+    animation-duration: 6s;
+}
+.content-links::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+.content-img::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+.home-btn{
+    width: 5%;
+    cursor:pointer;
+}
+.home-btn::selection{
+    color: black;
+    background-color: yellow;
+}
+.nb-title{
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation-name: notice-board;
+    animation-duration: 2s;
+    animation-duration: 3s;
+}
+.nb-title::selection{
+    color: black;
+    background-color: yellow;
+}
+.notice-count{
+    font-size: 40px;
+    color: orange;
+    background-color: rgb(68, 68, 68);
+    padding-left:13px;
+    padding-right: 13px;
+    border: 2px solid yellow;
+    border-radius: 100px;
+    animation-name: notice-board;
+    animation-duration: 2s;
+}
+.notice-count::selection{
+    color: black;
+    background-color: yellow;
+}
+.nb-content{
+    color: yellow;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    animation-name: notice-board;
+    animation-duration: 2s;
+}
+.nb-content::selection{
+    color: black;
+    background-color: yellow;
+}
+button{
+    background-color: green;
+    border: 2px solid rgb(0, 165, 0);
+    width:15%;
+    height: 35px;
+    border-radius:5px;
+    cursor: pointer;
+    background-color: green;
+}
+.nb-btns{
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+    animation-name: nb-btns;
+    animation-duration: 2s;
+}
+.nb-btns::selection{
+    color: black;
+    background-color: yellow;
+}
+.nb-btns:hover{
+    cursor: pointer;
+    transform: translateX(5px);
+    transform: rotateZ(deg);
+}
+.about-btns{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+.about-btns::selection{
+    color: black;
+    background-color: yellow;
+}
+/*Animations*/
+
+@keyframes topic{
+    0%{
+        transform: translateY(-60px);
+        opacity: 0%;
+    }
+}
+@keyframes topics{
+    0%{
+        opacity: 0%;
+    }
+}
+@keyframes content{
+    0%{
+        opacity: 0%;
+    }
+}
+@keyframes bots-title{
+    0%{
+        opacity:0%;
+    }
+}
+@keyframes bots-list{
+    0%{
+        opacity: 0%;
+    }
+}
+@keyframes home-links{
+    0%{
+        opacity: 0%;
+        transform: rotateX(-90deg);
+        transform: rotateY(90deg);
+    }
+}
+@keyframes logo{
+    0%{
+        opacity: 0%;
+        transform: translateY(-30px);
+        transform: rotateY(90deg);
+    }
+}
+@keyframes notice-board{
+    0%{
+        opacity: 0%;
+        transform: translateY(-30px);
+        transform: translateX(-20px);
+    }
+}
+@keyframes nb-btns{
+    0%{
+        opacity: 0%;
+        transform: translateY(-1000px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1276px){
+    .home-links{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1244px){
+    .home-links{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1244px){
+    .home-links{
+        font-size: 16px;
+        bottom: 225px;
+    }
+    .home-title{
+        font-size: 65px;
+    }
+}
+@media screen and (max-width: 1173px){
+    .home-links{
+        font-size: 15px;
+        bottom: 195px;
+    }
+    .home-title{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 1137px) {
+    .home-links{
+        font-size: 14px;
+        bottom:175px;
+    }
+    .home-title{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1102px) {
+    .home-links{
+        font-size: 13px;
+        bottom:160px;
+    }
+    .home-title{
+        font-size: 45px;
+    }
+    .background{
+        top: 35px;
+    }
+}
+@media screen and (max-width: 1066px) {
+    .home-links{
+        font-size: 12px;
+        bottom:140px;
+    }
+    .home-title{
+        font-size: 40px;
+    }
+    .background{
+        top: 35px;
+    }
+}
+@media screen and (max-width: 1031px) {
+    .home-links{
+        font-size: 11px;
+        bottom:125px;
+    }
+    .home-title{
+        font-size: 35px;
+    }
+    .background{
+        top: 45px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .home-links{
+        font-size: 10px;
+        bottom:108px;
+    }
+    .home-title{
+        font-size: 30px;
+    }
+    .background{
+        top: 45px;
+    }
+}
+@media screen and (max-width: 959px) {
+    .home-links{
+        font-size: 12px;
+        bottom:80px;
+        display:table-row;
+        text-align: center;
+        left: -15px;
+    }
+    .home-title{
+        font-size: 30px;
+        top:300px;
+    }
+    .background{
+        top: -10px;
+    }
+    .home-btn{
+        width: 10%;
+    }
+    button{
+        width: 150px;
+        height: 45px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 550px) {
+    .content{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 474px){
+    button{
+        width: 140px;
+        height: 35px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 450px) {
+    .home-links{
+        font-size: 12px;
+        position: relative;
+        top: -90px;
+        text-align: center;
+        
+    }
+    .home-title{
+        font-size: 30px;
+        top:300px;
+    }
+    .background{
+        top: -10px;
+    }
+    .home-btn{
+        width: 10%;
+    }
+    button{
+        width:auto;
+        height: 40px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 396px){
+    button{
+        width: 110px;
+    }
+    .about-btns{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 356px){
+    button{
+        width: 100px;
+        height: 25px;
+    }
+    .about-btns{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 324px){
+    button{
+        width: 95px;
+        height: 25px;
+    }
+    .about-btns{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 309px){
+    button{
+        width: 90px;
+    }
+}
