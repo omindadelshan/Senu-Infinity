@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/image_2021-09-19_20-00-10.png);
+    background-image: url(images/Website-HD-Backgrounds-Computer.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,6 +30,22 @@ body{
     background-color: yellow;
     color: rgb(0, 0, 0);
 }
+/*.index-copyright{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 75%;
+    position:relative;
+    top: 30px;
+}*/
+.copyright{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 75%;
+}
 h2{
     color: yellow;
     text-align: center;
@@ -46,6 +62,10 @@ h2{
     transition: 1s;
     animation-name: home-links;
     animation-duration: 3s;
+}
+.home-select::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
 }
 .home-links::selection{
     background-color: yellow;
@@ -75,7 +95,7 @@ h2{
 }
 .background{
     position: relative;
-    top: 25px;
+    top: 20px;
     text-align: center;
     animation-name: logo;
     animation-duration: 3s;
@@ -420,7 +440,7 @@ button{
         font-size: 45px;
     }
     .background{
-        top: 35px;
+        top: 30px;
     }
 }
 @media screen and (max-width: 1066px) {
@@ -432,7 +452,7 @@ button{
         font-size: 40px;
     }
     .background{
-        top: 35px;
+        top: 30px;
     }
 }
 @media screen and (max-width: 1031px) {
@@ -444,7 +464,7 @@ button{
         font-size: 35px;
     }
     .background{
-        top: 45px;
+        top: 40px;
     }
 }
 @media screen and (max-width: 995px) {
@@ -456,7 +476,7 @@ button{
         font-size: 30px;
     }
     .background{
-        top: 45px;
+        top: 40px;
     }
 }
 @media screen and (max-width: 959px) {
@@ -508,7 +528,7 @@ button{
         top:300px;
     }
     .background{
-        top: -10px;
+        top: -15px;
     }
     .home-btn{
         width: 10%;
