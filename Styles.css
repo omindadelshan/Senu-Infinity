@@ -503,9 +503,12 @@ button{
         display: inline-block;
     }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px){
     .content{
         font-size: 15px;
+    }
+    .nb-content{
+        font-size: 23px;
     }
 }
 @media screen and (max-width: 474px){
@@ -538,6 +541,18 @@ button{
         height: 40px;
         display: inline-block;
     }
+    .nb-content{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:428px){
+    .nb-content{
+        font-size: 18px;
+    }
+    .nb-btns{
+        font-size: 17px;
+        width: 120px;
+    }
 }
 @media screen and (max-width: 396px){
     button{
@@ -545,6 +560,12 @@ button{
     }
     .about-btns{
         font-size: 10px;
+    }
+    .nb-btns{
+        font-size: 15px;
+    }
+    .nb-content{
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 356px){
@@ -554,6 +575,9 @@ button{
     }
     .about-btns{
         font-size: 9px;
+    }
+    .nb-btns{
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 324px){
