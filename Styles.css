@@ -292,6 +292,18 @@ button{
     color: rgb(0, 255, 0);
     text-decoration: none;
 }
+.nb-dates{
+    color: yellow;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: notice-board;
+    animation-duration: 2s;
+}
+.nb-dates::selection{
+    color: black;
+    background-color: yellow; 
+}
 .about-btns::selection{
     color: black;
     background-color: yellow;
@@ -353,7 +365,7 @@ button{
         transform: translateY(-1000px);
     }
     50%{
-        transform: translateY(30px);
+        transform: translateY(15px);
     }
     100%{
         transform: translateY(-0px);
