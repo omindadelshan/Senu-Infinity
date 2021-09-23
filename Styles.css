@@ -19,11 +19,12 @@ body{
   }
 .home-title{
     color: white;
-    font-size: 70px;
+    font-size: 65px;
+    top: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     position: relative;
-    top: 160px;
+
     animation-name: home-links;
     animation-duration: 3s;
 }
@@ -45,22 +46,31 @@ body{
     color: white;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(90, 90, 90);
+    padding: 10px 0px 10px 0px;
     opacity: 75%;
 }
 h2{
     color: yellow;
     text-align: center;
 }
+.home-links-listing-main{
+    list-style: none;
+    text-align: center;
+    background-color: rgba(80, 80, 80, 0.541);
+}
+.home-links-listing{
+    display: inline-block;
+    padding: 0% 60px;
+    text-align:end;
+}
 .home-links{
-    color: white;
-    position: relative;
-    bottom: 235px;
-    top: 0%;
+    color: rgb(199, 199, 199);
     text-decoration: none;
-    font-size: 5mm;
+    font-size: 20px;
     display: inline-block;
     font-family:Arial, Helvetica, sans-serif;
-    transition: 1s;
+    transition: 1.5s;
     animation-name: home-links;
     animation-duration: 3s;
 }
@@ -73,8 +83,8 @@ h2{
     color: rgb(0, 0, 0);
 }
 .home-links:hover{
-    font-size:20px;
-    color: rgb(235, 235, 235);
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
 .home-links2nd{
     color: white;
@@ -96,10 +106,13 @@ h2{
 }
 .background{
     position: relative;
-    top: 20px;
     text-align: center;
+    width: 270px;
     animation-name: logo;
     animation-duration: 3s;
+}
+.background-div{
+    text-align:center;
 }
 .background::selection{
     background-color: yellow;
@@ -395,9 +408,14 @@ button{
 
 /*Media queries*/
 
+@media screen and (max-width: 1290px){
+    .home-links{
+        font-size:18px;
+    }
+}
 @media screen and (max-width: 1276px){
     .home-links{
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 @media screen and (max-width: 1244px){
@@ -407,8 +425,7 @@ button{
 }
 @media screen and (max-width: 1244px){
     .home-links{
-        font-size: 16px;
-        bottom: 225px;
+        font-size: 15px;
     }
     .home-title{
         font-size: 65px;
@@ -416,8 +433,7 @@ button{
 }
 @media screen and (max-width: 1173px){
     .home-links{
-        font-size: 15px;
-        bottom: 195px;
+        font-size: 13px;
     }
     .home-title{
         font-size: 55px;
@@ -425,20 +441,32 @@ button{
 }
 @media screen and (max-width: 1137px) {
     .home-links{
-        font-size: 14px;
-        bottom:175px;
+        font-size: 13px;
     }
     .home-title{
         font-size: 50px;
     }
 }
+@media screen and (max-width: 1134px){
+    .home-links{
+        font-size: 14px;
+    }
+    .home-links-listing{
+        display: block;
+        text-align: left;
+        padding: 0% 5px;
+    }
+    .home-links-listing-main{
+        text-align: left;
+    }
+}
 @media screen and (max-width: 1102px) {
     .home-links{
-        font-size: 13px;
-        bottom:160px;
+        font-size: 11px;
     }
     .home-title{
         font-size: 45px;
+        top: 60px;
     }
     .background{
         top: 30px;
@@ -447,53 +475,54 @@ button{
 @media screen and (max-width: 1066px) {
     .home-links{
         font-size: 12px;
-        bottom:140px;
+        
     }
     .home-title{
-        font-size: 40px;
+        font-size: 45px;
     }
     .background{
         top: 30px;
+        width: 220px;
     }
 }
 @media screen and (max-width: 1031px) {
     .home-links{
         font-size: 11px;
-        bottom:125px;
     }
     .home-title{
-        font-size: 35px;
+        font-size: 45px;
     }
     .background{
         top: 40px;
+        width:220px;
     }
 }
 @media screen and (max-width: 995px) {
     .home-links{
         font-size: 10px;
-        bottom:108px;
+        
     }
     .home-title{
-        font-size: 30px;
+        font-size: 45px;
     }
     .background{
         top: 40px;
+        width: 220px;
     }
 }
 @media screen and (max-width: 959px) {
     .home-links{
         font-size: 12px;
-        bottom:80px;
-        display:table-row;
         text-align: center;
         left: -15px;
     }
     .home-title{
-        font-size: 30px;
-        top:300px;
+        font-size: 50px;
+        
     }
     .background{
-        top: -10px;
+        width: 230px;
+        top: 40px;
     }
     .home-btn{
         width: 10%;
@@ -523,13 +552,13 @@ button{
     .home-links{
         font-size: 12px;
         position: relative;
-        top: -90px;
+        
         text-align: center;
         
     }
     .home-title{
         font-size: 30px;
-        top:300px;
+        top:10px;
     }
     .background{
         top: -15px;
